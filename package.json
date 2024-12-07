@@ -1,5 +1,6 @@
 {
   "name": "vite-react",
+  "homepage": "https://github.com/webapp342/vite-react-booba",
   "private": true,
   "version": "0.0.0",
   "type": "module",
