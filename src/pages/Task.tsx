@@ -96,33 +96,8 @@ const TopInvestors: React.FC = () => {
     navigate("/vite-react-router/"); // Geri butonuna tıklandığında bu path'e yönlendir
   };
 
-  const steps = [
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-  ];
-  const activeSteps: number[] = []; // Hiçbir adım aktif değil
-
-  const steps2 = [
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-  ];
-  const activeSteps2: number[] = []; // Hiçbir adım aktif değil
+ 
+  
   return (
     <ThemeProvider theme={theme}>
 

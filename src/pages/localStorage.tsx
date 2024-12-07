@@ -16,19 +16,7 @@ const theme = createTheme({
 const PointsManager: React.FC = () => {
   const totalBalance = `= 9,235 USD`;
   const percentageChange = '+8,391 USD Today';
-  const steps = [
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-  ];
-  const activeSteps = [0,1, 2, 3]; // Only these steps will be active
+
   const navigate = useNavigate();
   return (
     <ThemeProvider theme={theme}>
