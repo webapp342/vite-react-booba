@@ -1,5 +1,7 @@
 {
   "name": "vite-react",
+  "homepage": "https://github.com/webapp342/vite-react-booba",
+
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,8 +12,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.16.4",
+    "@mui/material": "^5.16.4",
+    "@twa-dev/sdk": "^8.0.1",
+    "firebase": "^11.0.2",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.0.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
